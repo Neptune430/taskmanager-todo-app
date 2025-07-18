@@ -1,72 +1,69 @@
 body {
     margin: 0;
     padding: 0;
-    
-  }
+}
 
-  .signup-login {
-    
-    background-color: #040608;
+.signup-login {
+    background-color: #e0e7ff; /* Light blue background */
     width: 100%;
     height: 1080px;
     overflow: hidden;
     font-size: 24px;
-    color: #fff;
-    font-family: Poppins;
+    color: #333; /* Darker text color for better readability */
+    font-family: 'Poppins', sans-serif;
     display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-  }
-
-  .signup-box{
-    background-color:#d6050530;
+.signup-box {
+    background-color: #ffffff; /* White background for the box */
     height: 650px;
     width: 520px;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
 
-  }
-  .heading{
+.heading {
     font-size: 40px;
     font-weight: 600;
     margin: 0;
     padding: 0;
     text-align: center;
     margin-top: 20px;
-    
+    color: #1e3a8a; /* Dark blue for headings */
+}
 
-  }
-  b{
+b {
     font-size: 20px;
     font-weight: 500;
     margin-left: 10px;
     padding: 0;
     text-align: center;
     margin-top: 20px;
-  }
- .inp{
-   /* margin-top: 10px; */
-  margin: 10px;
+    color: #1e3a8a; /* Dark blue for bold text */
+}
+
+.inp {
+    margin: 10px;
     height: 50px;
     width: 500px;
     border-radius: 10px;
-    border: none;
+    border: 2px solid #cbd5e1; /* Light gray border */
     padding-left: 20px;
     font-size: 20px;
     font-weight: 500;
-    color: #ffffff;
-    background-color: #ffffff30;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: #333; /* Dark text color */
+    background-color: #f3f4f6; /* Light gray background */
     box-sizing: border-box;
- }
- .inp::placeholder{
-    color: #ffffffa5;
-    
- }
-.submit-button{
+}
+
+.inp::placeholder {
+    color: #9ca3af; /* Gray placeholder text */
+}
+
+.submit-button {
     margin-top: 20px;
     margin-left: 10px;
     height: 50px;
@@ -77,31 +74,30 @@ body {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    background-color: #252525;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    background-color: #3b82f6; /* Blue background */
     box-sizing: border-box;
     cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
 }
-.submit-button:hover{
-    background-color: #ffff00bc;
-    color: #fff;
-}
-.line{
 
+.submit-button:hover {
+    background-color: #2563eb; /* Darker blue on hover */
+}
+
+.line {
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
     height: 1px;
     width: 500px;
     border: none;
-    background-color: #ffffff;
-    border: 0px solid rgba(255, 255, 255, 0.5);
+    background-color: #cbd5e1; /* Light gray line */
     box-sizing: border-box;
-    
 }
-.anc{
+
+.anc {
     text-decoration: none;
-    color: #ffff00bc;
+    color: #3b82f6; /* Blue link color */
     font-size: 20px;
     font-weight: 500;
     margin-left: 45%;
@@ -111,39 +107,43 @@ body {
     cursor: pointer;
 }
 
-.signup-box1{
-    background-color:#ffffff30;
+.signup-box1 {
+    background-color: #f3f4f6; /* Light gray background */
     height: 555px;
     width: 520px;
     border-radius: 25px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-  }
-  /* .sign{
-    text-decoration: none;
-    padding: 10px;
-  } */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
 
-  .anca{
+.a {
     font-size: 25px;
-      margin-top: 7px;
-      /* margin-left: -68px; */
-      margin-right: -41px;
-  }
-  a:hover{
-    color: #ffff00bc;
-  }
-  .heads{
+    margin-top: 7px;
+}
+
+a:hover {
+    color: #2563eb; /* Darker blue on hover */
+}
+
+.heads {
     display: flex;
-      justify-content: space-evenly;
-  }
-  .ancaa{
+    justify-content: space-evenly;
+}
+
+.ancaa {
     font-size: 25px;
     margin-top: 29px;
     margin-left: -40px;
-  }
-  
-.completed{
-  color: #c5aeff;
-  text-decoration: line-through;
 }
 
+.completed {
+    color: #6b7280; /* Gray for completed items */
+    text-decoration: line-through;
+}
+
+.signout-icon {
+  color: #3b82f6;
+  margin-top: auto;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: flex-end; /* Align items to the right */
+  text-align: right; /* Ensure text is aligned to the right */
+}

@@ -12,17 +12,12 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Font Awesome 5 Brands:wght@400&display=swap" />
     <script src="https://kit.fontawesome.com/cb792c0850.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <div class="signup-login">
         <div class='signup-box scr'>
             <div class="heading">Welcome, {{user}}</div>
-                <!-- Sign-out Icon -->
-                <a href="/signout" class="signout-icon" title="Sign Out">
-                    <i class="fa-solid fa-right-from-bracket"></i>
-                </a>
             <div class="line"></div>
             <div class="heading">
                 Get Things Done ?
@@ -47,6 +42,11 @@
                 </div>
             </div>
             {% endfor %}
+            
+            <!-- Sign-out Icon moved to the bottom -->
+            <a href="/signout" class="signout-icon" title="Sign Out">
+                <i class="fa-solid fa-right-from-bracket"></i> 
+            </a>
         </div>
     </div>
     <script src="{% static 'js/todo.js' %}"></script>
