@@ -100,7 +100,7 @@ b {
     color: #3b82f6; /* Blue link color */
     font-size: 20px;
     font-weight: 500;
-    margin-left: 45%;
+    margin-left: 44%;
     padding: 0;
     text-align: center;
     margin-top: 20px;
@@ -146,4 +146,5 @@ a:hover {
   display: flex; /* Use flexbox for alignment */
   justify-content: flex-end; /* Align items to the right */
   text-align: right; /* Ensure text is aligned to the right */
+  font: small;
 }
