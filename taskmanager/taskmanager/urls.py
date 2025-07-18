@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', views.signup, name='signup'),
     path('signup/', views.signup, name='signup'),  # Optionally name this route
     path('login/', views.login, name='login'),  # Assuming you have a login view
     path('todopage/', views.todo, name='todo'),  # Add name='todo' here 
